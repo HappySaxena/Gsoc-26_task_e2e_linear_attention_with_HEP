@@ -10,7 +10,7 @@ The objective of this task is to explore and benchmark linear-complexity attenti
 ## 📦 Pretrained Model Weights
 > **Note:** Due to GitHub's file size limitations, all optimized model weights (`.pth` files) for the pretraining, from-scratch, and fine-tuned phases have been hosted externally.
 
-🔗 **[https://drive.google.com/drive/folders/1T3Da11_HxaJqT6IqGhoGBZitWelOcfil?usp=drive_link]** 
+🔗 **[ACCESS THE MODEL WEIGHTS ON GOOGLE DRIVE HERE]** *(<- Replace this with your actual Drive Link)*
 
 To run inference or resume training, please download the respective weights from the Drive link above and place them in the root directory or update the weight paths inside the notebooks.
 
@@ -18,9 +18,9 @@ To run inference or resume training, please download the respective weights from
 
 ## 📂 Repository Structure
 
-The project is divided into two primary architectural approaches. Each approach contains modular Jupyter Notebooks for every phase of the training pipeline (Pretraining, Training from Scratch, and Fine-tuning).
+The project begins with a comprehensive data analysis, followed by two primary architectural approaches. Each approach contains modular Jupyter Notebooks for every phase of the training pipeline.
 
-```task 
+```text
 specific_task_2h/
 ├── Approach1_xcit/
 │   ├── Results_images/                         # Contains loss curves, ROC plots, and mass resolution graphs
@@ -38,6 +38,7 @@ specific_task_2h/
 │   ├── l2vit_finetuned_mass_only.ipynb         # Fine-tuning pretrained L2ViT (Mass + Classification)
 │   └── l2vit_finetune_mass_and_momentum.ipynb  # Fine-tuning pretrained L2ViT (Mass + Momentum + Class)
 │
+├── data-analysis.ipynb                         # Exploratory Data Analysis of the 8-channel CMS collision images
 ├── .gitattributes
 ├── .gitignore
 └── README.md
