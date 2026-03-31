@@ -44,3 +44,7 @@ specific_task_2h/
 ├── .gitattributes
 ├── .gitignore
 └── README.md
+```
+## Links
+- [GSoC 2026 Project Description](https://ml4sci.org/gsoc/2026/proposal_E2E5.html)
+- [End-to-End Physics Event Classification with CMS Open Data](https://arxiv.org/abs/1807.11916)
