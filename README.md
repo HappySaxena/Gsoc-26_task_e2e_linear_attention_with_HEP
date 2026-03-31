@@ -10,7 +10,9 @@ The objective of this task is to explore and benchmark linear-complexity attenti
 ## 📦 Pretrained Model Weights
 > **Note:** Due to GitHub's file size limitations, all optimized model weights (`.pth` files) for the pretraining, from-scratch, and fine-tuned phases have been hosted externally.
 
-🔗 **[ACCESS THE MODEL WEIGHTS ON GOOGLE DRIVE HERE]** *(<- Replace this with your actual Drive Link)*
+🔗 **https://cernbox.cern.ch/files/link/public/e3pqxcIznqdYyRv?openWithDefaultApp=true&fileId=eoshome-r%24F5SW64ZPOVZWK4RPOIXXEY3IOVSGC43B%21167608435&items-per-page=100&files-public-link-view-mode=resource-tiles&tiles-size=2[]** *(Datasets)*
+
+🔗 **[https://drive.google.com/drive/folders/1T3Da11_HxaJqT6IqGhoGBZitWelOcfil?usp=drive_link]** *(Model Weights)*
 
 To run inference or resume training, please download the respective weights from the Drive link above and place them in the root directory or update the weight paths inside the notebooks.
 
